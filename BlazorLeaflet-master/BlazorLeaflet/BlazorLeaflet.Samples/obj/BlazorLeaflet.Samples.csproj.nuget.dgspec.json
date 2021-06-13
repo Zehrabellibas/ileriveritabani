@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj": {}
+    "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj": {
+    "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj",
+        "projectUniqueName": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj",
         "projectName": "BlazorLeaflet.Samples",
-        "projectPath": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj",
+        "projectPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\BlazorLeaflet.Samples.csproj",
         "packagesPath": "C:\\Users\\zehra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\obj\\",
+        "outputPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet.Samples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj": {
-                "projectPath": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj"
+              "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj": {
+                "projectPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj": {
+    "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj": {
       "version": "0.4.0-alpha",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj",
+        "projectUniqueName": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj",
         "projectName": "BlazorLeaflet",
-        "projectPath": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj",
+        "projectPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\BlazorLeaflet.csproj",
         "packagesPath": "C:\\Users\\zehra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zehra\\OneDrive\\Masaüstü\\BlazorLeaflet-SON\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\obj\\",
+        "outputPath": "C:\\Users\\zehra\\OneDrive\\Belgeler\\GitHub\\ileriveritabani\\BlazorLeaflet-master\\BlazorLeaflet\\BlazorLeaflet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
