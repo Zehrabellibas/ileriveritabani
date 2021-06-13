@@ -1,0 +1,64 @@
+﻿@page "/"
+@using BlazorLeaflet.Models
+@using BlazorLeaflet.Samples.Data
+@inject BlazorLeaflet.Samples.Data.CargoServices service
+
+<div class="h1basliklar">
+    <h1>CARGO-S</h1>
+</div>
+        <div class="container">
+
+            <div class="row bg-light">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Cargo Id</th>
+                            <th>Weight</th>
+                            <th>Price</th>
+                            <th>DeliveryCity</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Cargos == null)
+                        {
+
+
+            <tr><td colspan="6"><strong>No products available</strong></td></tr>
+ }
+
+        else
+        {
+
+@foreach (var cargo in Cargos)
+{
+<tr>
+    <td>@cargo.Id</td>
+    <td>@cargo.Weight</td>
+    <td>@cargo.Price</td>
+    <td>@cargo.DeliveryCity</td>
+    <td>@cargo.Latitude</td>
+    <td>@cargo.Longitude</td>
+</tr>
+}}
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        @code{ List<Cargo> Cargos = new List<Cargo>();
+
+
+            private async Task RefreshCargos()
+            {
+                Cargos = await service.GetCargoAsync();
+            }
+
+            protected override async Task OnInitializedAsync()
+            {
+                await RefreshCargos();
+            } }

@@ -1,0 +1,39 @@
+﻿<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href=""> BlazorWEB.Leaflet </a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> CARGO-S
+            </NavLink>
+
+            <NavLink class="nav-link" href="cargocrud" Match="NavLinkMatch.All">
+                <span class="oi oi-pencil" aria-hidden="true"></span> Cargo CRUD
+            </NavLink>
+
+            <NavLink class="nav-link" href="cargotracking" Match="NavLinkMatch.All">
+                <span class="oi oi-map-marker" aria-hidden="true"></span> Cargo Tracking
+            </NavLink>
+
+            <NavLink class="nav-link" href="shapes" Match="NavLinkMatch.All">
+                <span class="oi oi-compass" aria-hidden="true"></span> MAP
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code {
+    bool collapseNavMenu = true;
+
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

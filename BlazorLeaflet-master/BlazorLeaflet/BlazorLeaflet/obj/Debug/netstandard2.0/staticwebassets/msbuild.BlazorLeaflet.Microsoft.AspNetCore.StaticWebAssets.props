@@ -1,0 +1,11 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\leafletBlazorInterops.js">
+      <SourceType>Package</SourceType>
+      <SourceId>BlazorLeaflet</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BlazorLeaflet</BasePath>
+      <RelativePath>leafletBlazorInterops.js</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

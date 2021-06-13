@@ -1,0 +1,21 @@
+﻿@inherits Microsoft.AspNetCore.Components.LayoutComponentBase
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+
+        <a class="btn btn-social-icon btn-github" href="https://github.com/Zehrabellibas">
+            <span class="fa fa-github fa-lg" position="relative" ></span>
+        </a>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link href="../Content/style.css" rel="stylesheet" />
+
+    </div>
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
